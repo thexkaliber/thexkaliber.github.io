@@ -1,1 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Google+Sans:100,300,400,500,700,900,100i,300i,400i,500i,700i,900i');
 
+.Avatar
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    block-size: 300px;
+    border-radius: 50%;
+}
+
+.avatarDescription
+{
+    font-family: 'Google Sans';
+    font-size: 25px;
+    text-align: center;
+}
+
+.avatarAbout
+{
+    font-family: 'Google Sans';
+    font-size: 18px;
+    font-weight: thin;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.aboutMe, .linkTree
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-sizing: border-box;
+    width: 200px;
+    height: 70px;
+    line-height: 64px;
+    background: black;
+    border-color:white;
+    padding: 0px 30px;
+    border-radius: 999em;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border: 3px solid white;
+    letter-spacing: 2px;
+    transition: .15s background-color,.15s border-color,.15s color,.15s fill;
+    font-weight: 600;
+    font-family: 'Google Sans';
+}
+
+.aboutMe:hover, .linkTree:hover
+{
+    font-family: 'Google Sans';
+    font-size: 16px;
+    background: white;
+    color: black;
+    border: 3px solid black;
+}
+
+i
+{
+
+    align-items: center;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+ul, .socialMedia{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+li, .instagram, .github, .linkedin, .twitter{
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.instagram{
+    color: rgb(184, 64, 178);
+}
+
+.github{
+    color: black;
+}
+
+.linkedin{
+    color: rgb(15, 90, 139);
+}
+
+.twitter{
+    color: rgb(0, 140, 255);
+}
