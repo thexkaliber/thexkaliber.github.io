@@ -69,6 +69,7 @@ i
 }
 
 ul, .socialMedia{
+    padding-inline-start: 0px;
     text-align: center;
     text-decoration: none;
     list-style: none;
